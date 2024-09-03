@@ -1,0 +1,12 @@
+.date-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: purple;
+    margin: 10rem 10rem;
+    padding: 5rem 0rem;
+    font-size: 25px;
+    border-radius: 50px;
+}

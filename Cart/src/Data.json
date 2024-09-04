@@ -1,0 +1,27 @@
+[
+    {
+        "Title" : "16Gb Memory",
+        "Description" : "This is the 16GB Memory Card description",
+        "price" : 450
+    },
+    {
+        "Title" : "32Gb Memory",
+        "Description" : "This is the 32GB Memory Card description",
+        "price" : 550
+    },
+    {
+        "Title" : "64Gb Memory",
+        "Description" : "This is the 64GB Memory Card description",
+        "price" : 650
+    },
+    {
+        "Title" : "128Gb Memory",
+        "Description" : "This is the 128GB Memory Card description",
+        "price" : 750
+    },
+    {
+        "Title" : "256Gb Memory",
+        "Description" : "This is the 256GB Memory Card description",
+        "price" : 850
+    }
+]

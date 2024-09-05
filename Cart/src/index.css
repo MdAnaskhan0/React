@@ -1,0 +1,23 @@
+.CounterApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.button button{
+    padding: 1rem 3rem;
+    margin: 0rem 1rem;
+    font-size: large;
+    color: #000;
+    border: 0px solid;
+    background-color: antiquewhite;
+}
+
+.button button:hover{
+    border: 1px solid #000;
+}
+
+

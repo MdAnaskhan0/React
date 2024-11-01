@@ -20,7 +20,8 @@ const UserinfoHook = () => {
                     <input
                         type="text"
                         placeholder="Enter your name"
-                        className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" {...register("name", {
+                        className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                        {...register("name",{
                             required: {
                                 value: true,
                                 message: "Please fill your name."
@@ -31,7 +32,8 @@ const UserinfoHook = () => {
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" {...register("email", {
+                        className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                        {...register("email", {
                             pattern: {
                                 value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
                                 message: "Invalid Email id"
